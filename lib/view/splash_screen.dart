@@ -24,7 +24,7 @@ class _SplashScreenState extends State<SplashScreen> {
       body: Center(
         child: Image.asset(
           ImageConstants.appIcon,
-          scale: 1.5,
+          scale: 2,
         ),
       ),
     );
