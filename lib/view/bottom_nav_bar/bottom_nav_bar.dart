@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:instagram/core/constants/color_constants.dart';
 import 'package:instagram/core/constants/image_constants.dart';
-import 'package:instagram/core/select_account_screen.dart';
+import 'package:instagram/view/add_image_screen/add_image_screen.dart';
 import 'package:instagram/view/home_screen.dart';
+import 'package:instagram/view/profile_screen/profile_screen.dart';
+import 'package:instagram/view/search_screen/search_screen.dart';
 
 class bottomNavigationBarScreen extends StatefulWidget {
   const bottomNavigationBarScreen({super.key});
@@ -14,21 +17,15 @@ class bottomNavigationBarScreen extends StatefulWidget {
 class _bottomNavigationBarScreenState extends State<bottomNavigationBarScreen> {
   List<Widget> ScreenList = [
     HomeScreen(),
-    Container(
-      color: Colors.amber,
-    ),
+    SearchScreen(),
+    
     Container(
       color: Colors.green,
     ),
     Container(
       color: Colors.red,
     ),
-    Container(
-      color: Colors.blue,
-    ),
-    Container(
-      color: Colors.pink,
-    ),
+    Profilescreen(),
   ];
 
   int selectedIndex = 0;
@@ -36,19 +33,21 @@ class _bottomNavigationBarScreenState extends State<bottomNavigationBarScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: ScreenList[selectedIndex],
-      bottomNavigationBar: BottomNavigationBar(
-        onTap: (value) {
-          if (value != 2) {
-            selectedIndex = value;
-            setState(() {});
-          } else {
-            Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => SelectAccountScreen(),
-                ));
-          }
-        },
+      bottomNavigationBar: SizedBox(
+        child: BottomNavigationBar(
+          selectedItemColor: ColorConstants.primaryBlack,
+          onTap: (value) {
+            if (value != 2) {
+              selectedIndex = value;
+              setState(() {});
+            } else {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => AddImageScreen(),
+                  ));
+            }
+          },
         type: BottomNavigationBarType.fixed,
         currentIndex: selectedIndex,
         items: [
@@ -71,7 +70,7 @@ class _bottomNavigationBarScreenState extends State<bottomNavigationBarScreen> {
               ),
               label: ""),
         ],
-      ),
+      ),),
     );
   }
 }

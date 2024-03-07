@@ -11,5 +11,7 @@ class ColorConstants{
   static const Color story1 = Color(0xffFBAA47);
   static const Color story2 = Color(0xffD91A46);
   static const Color story3 = Color(0xffA60F93);
+  static const Color transparent = Colors.transparent;
+
 
 }
