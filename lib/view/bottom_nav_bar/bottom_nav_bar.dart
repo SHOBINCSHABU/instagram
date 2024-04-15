@@ -3,6 +3,7 @@ import 'package:instagram/core/constants/color_constants.dart';
 import 'package:instagram/core/constants/image_constants.dart';
 import 'package:instagram/view/add_image_screen/add_image_screen.dart';
 import 'package:instagram/view/home_screen.dart';
+import 'package:instagram/view/notification_screen/notification_screen.dart';
 import 'package:instagram/view/profile_screen/profile_screen.dart';
 import 'package:instagram/view/search_screen/search_screen.dart';
 
@@ -22,9 +23,7 @@ class _bottomNavigationBarScreenState extends State<bottomNavigationBarScreen> {
     Container(
       color: Colors.green,
     ),
-    Container(
-      color: Colors.red,
-    ),
+    NotificationScreen(),
     Profilescreen(),
   ];
 

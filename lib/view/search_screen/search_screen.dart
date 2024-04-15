@@ -64,13 +64,13 @@ class _SearchScreenState extends State<SearchScreen> {
                       (index) => Padding(
                             padding:
                                 const EdgeInsets.symmetric(horizontal: 5.0),
-                            child: SearchCategoryCard(
-                              icon: index.isEven ? Icons.favorite : null,
+                            // child: SearchCategoryCard(
+                            //   icon: index.isEven ? Icons.favorite : null,
                             ),
                           )),
                 ),
               ),
-            ),
+            // ),
             Expanded(
                 child: SingleChildScrollView(
               child: Column(

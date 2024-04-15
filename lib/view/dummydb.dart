@@ -9,31 +9,31 @@ class DummyDb {
     {
       "userName": "karennee",
       "proPic":
-          "https://images.pexels.com/photos/20214373/pexels-photo-20214373/free-photo-of-a-young-man-standing-in-a-field-with-tall-grass.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+          "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400",
       "isLive": true,
     },
     {
       "userName": "zackjohn",
       "proPic":
-          "https://images.pexels.com/photos/20214373/pexels-photo-20214373/free-photo-of-a-young-man-standing-in-a-field-with-tall-grass.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+          "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400",
       "isLive": false,
     },
     {
       "userName": "kieron_d",
       "proPic":
-          "https://images.pexels.com/photos/20214373/pexels-photo-20214373/free-photo-of-a-young-man-standing-in-a-field-with-tall-grass.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+          "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=400",
       "isLive": false,
     },
     {
       "userName": "carig_dif",
       "proPic":
-          "https://images.pexels.com/photos/20214373/pexels-photo-20214373/free-photo-of-a-young-man-standing-in-a-field-with-tall-grass.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+          "https://images.pexels.com/photos/20299478/pexels-photo-20299478/free-photo-of-serenity.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
       "isLive": false,
     },
     {
       "userName": "joshua_j_i",
       "proPic":
-          "https://images.pexels.com/photos/20214373/pexels-photo-20214373/free-photo-of-a-young-man-standing-in-a-field-with-tall-grass.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+          "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=400",
       "isLive": false,
     },
   ];
@@ -42,7 +42,7 @@ class DummyDb {
     {
       "userName": "-.punyalan._",
       "proPic":
-          "https://images.pexels.com/photos/20299478/pexels-photo-20299478/free-photo-of-serenity.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+          "https://images.pexels.com/photos/20214373/pexels-photo-20214373/free-photo-of-a-young-man-standing-in-a-field-with-tall-grass.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
       "location": "Thottakad, kerala",
       "posts": [
         "https://images.pexels.com/photos/20355450/pexels-photo-20355450.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
